@@ -98,9 +98,9 @@ const Menu = ({isOpen}) => {
                <li className='item-menu relative'>
                     <a className='link-menu' href="http://localhost:3000">Hỗ trợ</a>
                     <div className='w-[13px] absolute top-[25px] right-0' onClick = {handleClick}>
-                         <div className='w-full h-[1px] bg-[#A7A9AC] absolute'></div>
+                         <div className='w-full h-[7px] py-[3px] bg-clip-content bg-[#A7A9AC] absolute'></div>
                          <div 
-                              className={`w-full h-[1px] bg-[#A7A9AC] rotate-[-90deg] absolute transition-transform duration-300 ease-linear ${openSup ? 'rotate-[0deg]' : ''}`}
+                              className={`w-full h-[7px] py-[3px] bg-clip-content bg-[#A7A9AC] rotate-[-90deg] absolute transition-transform duration-300 ease-linear ${openSup ? 'rotate-[0deg]' : ''}`}
                          >
                          </div>
                     </div>
